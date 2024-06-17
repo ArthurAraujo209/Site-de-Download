@@ -1,0 +1,195 @@
+body{
+    font-size: 18px;
+}
+
+header{
+    float: left;
+    width: 100%;
+    position: relative;
+    background-image: url(../img/bg-header-desktop.png);
+    background-repeat: no-repeat;
+}
+.div-logo{
+    margin: 0 auto;
+    left: 50%;
+    margin-left: -62.5px;
+    width: 125px;
+    position: absolute;
+    top: 130px;
+
+}
+.titulo{
+    position: relative;
+    top: 327px;
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+}
+.titulo p {
+    padding-top: 21px;
+    color: hsl(201, 11%, 66%);
+    padding-bottom: 50px;
+}
+.btn-1 {
+    background-color: hsl(171, 66%, 44%);
+    height: 56px;
+    width: 227px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 50px;
+    border-bottom: solid hsl(171, 66%, 38%);
+    border-top: none ;
+    border-left: none;
+    border-right: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.btn-1:hover{
+    box-shadow: rgb(38, 186, 164, 0.3) 0px 19px 38px, rgb(38, 186, 164, 0.3) 0px 15px 12px ;
+}
+.btn-2 {
+    background-color: hsl(233, 100%, 69%);
+    height: 56px;
+    width: 227px;
+    border: 2px solid black;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 50px;
+    border-bottom: solid hsl(233, 100%, 63%);
+    border-top: none ;
+    border-left: none;
+    border-right: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.btn-2:hover{
+    box-shadow: hsla(233, 100%, 69%, 0.301) 0px 19px 38px, hsla(233, 100%, 69%, 0.301) 0px 15px 12px ;
+}
+.titulo-2{
+    padding-top: 152px;
+}
+.titulo-3{
+    position: absolute;
+    width: 100%;
+}
+.foto-2{
+    position: absolute;
+    left: -30px;
+}
+.texto-3{
+    position: relative;
+    text-align: left;
+    left: 770px;
+    top: 70px;
+    width: 380px;
+    
+}
+.titulo-4{
+    position: relative;
+    top: 290px;
+}
+.foto-3{
+    position: relative;
+    top: 385px;
+}
+.titulo-5{
+    position: relative;
+    top: 450px;
+}
+.funcoes{
+    position: relative;
+    top: 500px;
+    display: flex;
+    justify-content: space-between;
+    width: 1010px;
+    left: 13%;
+    align-items: baseline;
+}
+.funcoes img{
+    padding-bottom: 37px;
+
+}
+
+
+.patrocinios{
+    position: relative;
+    top: 606px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+}
+.patrocinios a {
+    transition: 0.5s;
+}
+.patrocinios a:hover{
+    transition: 0.5s;
+    transform: scale(1.5, 1.5);
+}
+.baixo{
+    top: 752px;
+}
+.footer{
+    position: relative;
+    top: 800px;
+}
+.logo-baixa{
+    position: relative;
+    float: left;
+    height: 50px;
+    left: 165px;
+    padding-top: 61px;
+    padding-bottom: 50px;
+}
+.ajuda-1{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    top: 50px;
+}
+.content{
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+    position: relative;
+    width: 130px;
+    left: 300px;
+    float: left;
+    padding-right: 65px;
+    padding-top: 50px;
+    text-align: left;
+}
+.content:hover{
+    color: hsl(171, 66%, 44%);
+}
+.ajuda-2{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    top: 50px;
+}
+.content-2{
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+    position: relative;
+    width: 100px;
+    right: 288px;
+    float: left;
+    padding-right: 97px;
+    text-align: left;
+    top: 100px;
+}
+.content-2:hover{
+    color: hsl(171, 66%, 44%);
+}
+.redes-sociais{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    width: 160px;
+    float: right;
+    padding-right: 130px;
+}
+
